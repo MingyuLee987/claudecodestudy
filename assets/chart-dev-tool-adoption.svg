@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="286" viewBox="0 0 720 286" role="img" aria-label="개발자 AI 코딩 도구 사용률. GitHub Copilot 67.9퍼센트, Cursor 18퍼센트, Claude Code 10퍼센트, Windsurf 5퍼센트.">
+  <style>
+    :root {
+      --surface-1: #fcfcfb;
+      --text-primary: #0b0b0b;
+      --text-secondary: #52514e;
+      --text-muted: #898781;
+      --grid: #e1e0d9;
+      --axis: #c3c2b7;
+      --series-1: #2a78d6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --surface-1: #1a1a19;
+        --text-primary: #ffffff;
+        --text-secondary: #c3c2b7;
+        --text-muted: #898781;
+        --grid: #2c2c2a;
+        --axis: #383835;
+        --series-1: #3987e5;
+      }
+    }
+    .bg { fill: var(--surface-1); }
+    .title { fill: var(--text-primary); font: 600 15px system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .sub { fill: var(--text-muted); font: 400 11px system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .cat { fill: var(--text-primary); font: 500 13px system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .val { fill: var(--text-secondary); font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; font-variant-numeric: tabular-nums; }
+    .tick { fill: var(--text-muted); font: 400 10px system-ui, -apple-system, "Segoe UI", sans-serif; font-variant-numeric: tabular-nums; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .axis { stroke: var(--axis); stroke-width: 1; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="720" height="286" rx="6"/>
+
+  <text class="title" x="16" y="24">개발자 AI 코딩 도구 사용률 (전체 응답자 대비)</text>
+  <text class="sub" x="16" y="42">단위: % · 출처: Stack Overflow Developer Survey 2025 (2025-07-29 발행, 49,000명+ / 177개국)</text>
+  <text class="sub" x="16" y="58">설문은 2025년 상반기 실시 → 하반기 시작 시점의 기준선</text>
+
+  <g class="grid">
+    <line x1="282.9" y1="76" x2="282.9" y2="236"/>
+    <line x1="425.7" y1="76" x2="425.7" y2="236"/>
+    <line x1="568.6" y1="76" x2="568.6" y2="236"/>
+  </g>
+  <line class="axis" x1="140" y1="76" x2="140" y2="236"/>
+
+  <text class="cat" x="132" y="101" text-anchor="end">GitHub Copilot</text>
+  <path fill="var(--series-1)" d="M140,84 H621 a4,4 0 0 1 4,4 V106 a4,4 0 0 1 -4,4 H140 Z"/>
+  <text class="val" x="637" y="102">67.9</text>
+
+  <text class="cat" x="132" y="139" text-anchor="end">Cursor</text>
+  <path fill="var(--series-1)" d="M140,122 H264.6 a4,4 0 0 1 4,4 V144 a4,4 0 0 1 -4,4 H140 Z"/>
+  <text class="val" x="280.6" y="140">18</text>
+
+  <text class="cat" x="132" y="177" text-anchor="end">Claude Code</text>
+  <path fill="var(--series-1)" d="M140,160 H207.4 a4,4 0 0 1 4,4 V182 a4,4 0 0 1 -4,4 H140 Z"/>
+  <text class="val" x="223.4" y="178">10</text>
+
+  <text class="cat" x="132" y="215" text-anchor="end">Windsurf</text>
+  <path fill="var(--series-1)" d="M140,198 H171.7 a4,4 0 0 1 4,4 V220 a4,4 0 0 1 -4,4 H140 Z"/>
+  <text class="val" x="187.7" y="216">5</text>
+
+  <line class="axis" x1="140" y1="236" x2="660" y2="236"/>
+  <text class="tick" x="140" y="252" text-anchor="middle">0</text>
+  <text class="tick" x="282.9" y="252" text-anchor="middle">20</text>
+  <text class="tick" x="425.7" y="252" text-anchor="middle">40</text>
+  <text class="tick" x="568.6" y="252" text-anchor="middle">60</text>
+  <text class="sub" x="16" y="274">Cursor·Claude Code·Windsurf는 2025년 설문에 처음 등재된 항목이다.</text>
+</svg>
