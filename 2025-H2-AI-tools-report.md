@@ -16,12 +16,12 @@
 
 | 축 | 출처 | 측정 방식 | 기준 시점 |
 |---|---|---|---|
-| A. 사용자 규모 | [a16z Top 100 Gen AI Apps 5판](https://a16z.com/100-gen-ai-apps-5/) | Similarweb 순 방문자 + Sensor Tower MAU | 2025-08 |
-| A. 사용자 규모 | [Similarweb Gen AI 분석](https://www.similarweb.com/blog/marketing/seo/most-used-ai/) | 웹 트래픽 패널 | 2025 전체 |
-| A. 사용자 규모 | 벤더 공식 발표 (OpenAI DevDay, [Alphabet Q3](https://s206.q4cdn.com/479360582/files/doc_financials/2025/q3/2025q3-alphabet-earnings-release.pdf)) | 자체 집계 WAU·MAU | 2025-10 |
-| B. 개발자·업계 | [Stack Overflow 설문 2025](https://survey.stackoverflow.co/2025/ai) | 자발적 응답 49,000명+ | 2025 상반기 |
-| B. 개발자·업계 | [Menlo Ventures 기업 리포트](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/) | 미국 기업 의사결정자 495명 | 2025-11 |
-| B. 개발자·업계 | [GitHub Octoverse 2025](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/) | 플랫폼 실측 로그 | 2024-09~2025-08 |
+| **A. 사용자 규모** | [a16z 5판](https://a16z.com/100-gen-ai-apps-5/) | Similarweb 방문자 + Sensor Tower MAU | 2025-08 |
+| | [Similarweb](https://www.similarweb.com/blog/marketing/seo/most-used-ai/) | 웹 트래픽 패널 | 2025 전체 |
+| | OpenAI DevDay · [Alphabet Q3](https://s206.q4cdn.com/479360582/files/doc_financials/2025/q3/2025q3-alphabet-earnings-release.pdf) | 벤더 자체 집계 WAU·MAU | 2025-10 |
+| **B. 개발자·업계** | [Stack Overflow 2025](https://survey.stackoverflow.co/2025/ai) | 자발적 응답 49,000명+ | 2025 상반기 |
+| | [Menlo Ventures](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/) | 미국 기업 의사결정자 495명 | 2025-11 |
+| | [GitHub Octoverse](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/) | 플랫폼 실측 로그 | 2024-09~2025-08 |
 
 **판정 규칙** ① 독립 2출처가 일치할 때만 순위를 단정한다. ② 두 축의 1위가 다르면 통합하지 않고 나눠 적는다. ③ 근거가 부족하면 "판정 불가"로 남긴다.
 
@@ -45,7 +45,7 @@
 
 ChatGPT는 2월 4억 명에서 10월 8억 WAU로 7개월 만에 두 배가 됐다. 8월 기준 전체 AI 도구 트래픽의 69%를 혼자 가져갔고, 같은 시점 Gemini 웹 트래픽은 ChatGPT의 약 12% 수준이었다.
 
-문제는 추세다. Gemini 앱은 Q3에 MAU 6억 5천만 명을 넘겼고, Similarweb 집계로 2025년 한 해 트래픽이 **548% 늘었다**. 특히 9월(+46%)과 12월(+28%)에 급등했다. 반면 DeepSeek는 2월 정점 대비 40% 이상 빠졌고, Grok은 7월 모델 공개로 모바일 사용량이 한 달 만에 40% 가까이 뛰었다.
+문제는 추세다. Gemini 앱은 Q3에 MAU 6억 5천만 명을 넘겼고, 2025년 한 해 트래픽이 **548% 늘었다**(9월 +46%, 12월 +28%). 반면 DeepSeek는 2월 정점 대비 40% 이상 빠졌고, Grok은 7월 모델 공개로 모바일 사용량이 한 달 만에 40% 가까이 뛰었다.
 
 ### 코딩 — 채택률은 Copilot, 지출은 Anthropic
 
@@ -82,28 +82,28 @@ ChatGPT는 2월 4억 명에서 10월 8억 WAU로 7개월 만에 두 배가 됐�
 
 ### 개발 생태계 전반
 
-GitHub 개발자는 1억 8천만 명을 넘겼고, 한 해 3,600만 명이 새로 들어왔다. LLM SDK를 쓰는 공개 저장소는 110만 개(+178%). Copilot coding agent는 5~9월 다섯 달 동안 PR 100만 건 이상을 열었다. 8월에는 **TypeScript가 사상 처음 Python·JavaScript를 제치고 1위 언어**가 됐는데, AI 코딩 도구가 타입이 있는 언어에서 훨씬 잘 동작하기 때문이라는 게 GitHub의 해석이다.
+GitHub 개발자는 1억 8천만 명을 넘겼고 한 해 3,600만 명이 새로 들어왔다. LLM SDK를 쓰는 공개 저장소는 110만 개(+178%), Copilot coding agent는 5~9월에 PR 100만 건 이상을 열었다. 8월에는 **TypeScript가 사상 처음 Python·JavaScript를 제치고 1위 언어**가 됐다. AI 코딩 도구가 타입 있는 언어에서 훨씬 잘 동작하기 때문이라는 게 GitHub의 해석이다.
 
 ## 5. 하반기의 변화 요약
 
 | 시점 | 사건 |
 |---|---|
-| 7월 | Grok 모바일 +40%; Stack Overflow 설문 공개(AI 신뢰도 하락 확인) |
-| 8월 | a16z 5판 — Lovable 웹 22위 신규 진입, 웹 11개·모바일 14개 신규 |
-| 10월 | ChatGPT 8억 WAU 발표; Gemini 6.5억 MAU; Octoverse 공개 |
-| 11~12월 | Menlo 조사 — Anthropic이 기업 LLM 1위(40%) 확정; Gemini 트래픽 +28% |
+| 7월 | Grok 모바일 +40%; SO 설문 공개(AI 신뢰도 하락) |
+| 8월 | a16z 5판 — Lovable 웹 22위 진입, 웹 11개·모바일 14개 신규 |
+| 10월 | ChatGPT 8억 WAU; Gemini 6.5억 MAU; Octoverse 공개 |
+| 11~12월 | Anthropic 기업 LLM 1위(40%) 확정; Gemini 트래픽 +28% |
 
-한 문장으로: **하반기는 ChatGPT의 왕좌가 흔들린 시기가 아니라, 2위 자리를 놓고 Gemini와 Anthropic이 각자의 시장에서 확실히 자리를 잡은 시기였다.**
+**하반기는 ChatGPT의 왕좌가 흔들린 시기가 아니라, 2위 자리를 놓고 Gemini와 Anthropic이 각자의 시장에서 자리를 잡은 시기였다.**
 
 ## 6. 한계와 반증
 
 1. **구간 공백** — a16z 5판(8월)과 6판(2026년 1월) 사이에 스냅샷이 없다. 하반기 후반 소비자 순위는 성장률로 방향만 추정했다.
-2. **설문 시점** — Stack Overflow 조사는 상반기에 실시됐다. Claude Code 10%, Cursor 18%는 하반기 실제 채택률보다 **낮게 잡혔을 가능성이 크다.** Menlo의 54%와 대조하면 그렇다.
+2. **설문 시점** — Stack Overflow 조사는 상반기 실시다. Claude Code 10%, Cursor 18%는 하반기 실제 채택률보다 **낮게 잡혔을 가능성이 크다** (Menlo의 54%와 대조).
 3. **패널 추정치** — Similarweb·Sensor Tower는 실측이 아니다. 절대값이 아니라 상대 순위와 추세만 신뢰해야 한다.
-4. **지표 비교 불가** — WAU(OpenAI), MAU(Google), 순 방문자(Similarweb)는 정의가 달라 직접 비교할 수 없다. 본문에서 두 수치를 나란히 놓지 않은 이유다.
-5. **표본 편향** — Menlo는 미국 기업 495명 한정이다. 중국권 서비스(Doubao, Quark, Kimi)와 한국 시장은 두 축 모두에서 과소 반영됐다.
+4. **지표 비교 불가** — WAU·MAU·순 방문자는 정의가 달라 직접 비교할 수 없다. 본문에서 두 수치를 나란히 놓지 않은 이유다.
+5. **표본 편향** — Menlo는 미국 기업 495명 한정이다. 중국권(Doubao, Quark, Kimi)과 한국 시장은 두 축 모두 과소 반영됐다.
 
-**결론이 뒤집힐 조건:** 하반기 중반 시점의 Similarweb 원자료가 공개되어 Gemini의 웹 점유율이 30%를 넘었던 것으로 확인되면, "ChatGPT 독주"라는 3장의 표현은 "격차 급속 축소"로 수정해야 한다.
+**뒤집힐 조건:** 하반기 중반 Similarweb 원자료에서 Gemini 웹 점유율이 30%를 넘었던 것으로 확인되면, 3장의 "독주"는 "격차 급속 축소"로 고쳐야 한다.
 
 ## 7. 출처
 
